@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>ClassTeacher</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/animate.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+      <script type="text/javascript" src="js/enableDragMobile.js"></script>
+   </head>
+   <body >
+      <!-- <body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;"> -->
+      <div class="mainWrapper">
+         <div class="wrapper">
+         <div id="header">
+            <div class="logo logoWrapper">
+               <a href="main.html"> <img src="img/logo.png"> </a>
+               <h3 id="headerText"></h3>
+            </div>
+         </div>
+        </div>
+         <div id="innerWrapper" class="animated fadeIn">
+            <h2 id="instruction">Arrange the numbers in Ascending order</h2>
+            <div class="dropContainer">
+               <div class="engineContainer">
+                  <img src='img/trainEngine.png' />
+               </div>
+               <ul class="unOrderList" id='dropData'>
+               </ul>
+            </div>
+            <div class="track">
+               <img src='img/trainTrack.png' />
+            </div>
+            <div class="dragContainer">
+               <ul class="unOrderList" id='dragData'>
+               </ul>
+            </div>
+            <div class="buttons">
+               <button id='check'>Check</button>
+               <button id='reset'>Reset</button>
+            </div>
+         </div><!--innerwrapper end here -->
+        </div>  <!--wrapper end here -->
+      <script type="text/javascript" src="data/data.js"></script>
+      <script type="text/javascript" src="js/script.js"></script>
+   </body>
+</html>
+

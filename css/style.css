@@ -1,0 +1,110 @@
+* {margin: 0px;padding: 0px;}
+body {
+	background: #a9a9a9;
+    font-family: sans-serif;
+    caret-color:transparent;
+}
+
+.wrapper{max-width:960px;margin:0px auto;position: relative;}
+
+#header .logo h3 {
+flex-grow: 1;
+text-align: right;
+font-family: sans-serif;
+font-size: 28px;
+color: #fff;
+margin-top:0px;
+}
+#header .logo {margin: 0px auto;display: flex;align-items: center;}
+#header {padding: 15px;}
+#innerWrapper{   padding: 15px; text-align: center; overflow: hidden;}
+#innerWrapper h2{font-family: sans-serif;font-weight: bold;position: relative;}
+.dragContainer{
+    margin-top:100px;
+}
+.dropContainer{
+	display: flex;
+	align-items: flex-end;
+	margin-left: -15px;
+	margin-right: -15px;
+	left: 100%;
+	justify-content: center;
+	position: relative;
+	transition: all 2s ease-in-out;
+}
+#instruction{
+	margin-bottom:50px;
+
+}
+.unOrderList{
+	display: flex;
+	justify-content: center;
+}
+.dropContainer ul li {
+	background-image: url('../img/trainCompartment.png');
+	width: 132px;
+	background-position: center;
+	background-size: 100% 100%;
+	height: 70px;
+}
+.engineContainer{
+	display: flex;
+}
+.engineContainer img{
+	width: 150px;
+}
+.track{
+	margin-left: -15px;
+margin-right: -15px;
+display: flex;
+}
+
+.dragContainer ul li {
+color:
+#fff;
+font-size: 45px;
+cursor: pointer;
+}
+.buttons{margin-top:20px;}
+.buttons button{
+	font-weight: bold;
+padding: 4px 15px;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+.track img{
+	width:100%;
+}
+.unOrderList li{
+list-style: none;
+height: 50px;
+width: 50px;
+/*border: 1px solid #fff;*/
+float: left;
+display: flex;
+align-items: center;
+justify-content: center;
+color:
+#fff;
+font-size: 45px;
+}
+
+.mainWrapper{
+	width:100%;
+}
+
+
+@media screen and (max-width: 768px) {
+}
+
+
+@media screen and (max-width: 500px) {
+.logoWrapper img{width:100px;}
+#header .logo h3{font-size:20px;}
+.question{font-size: 13px;}
+.questionNo {margin-bottom: 10px;font-size: 18px;font-weight: normal;}
+#header{padding-bottom:0px; margin-bottom:0px;}
+
+} 
+/*  // media quesry end here...*/
